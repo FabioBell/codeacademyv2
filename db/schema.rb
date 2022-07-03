@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20220624080807) do
+ActiveRecord::Schema.define(version: 20220701181506) do
 
   create_table "applications", force: true do |t|
     t.string   "name"
@@ -21,5 +21,6 @@ ActiveRecord::Schema.define(version: 20220624080807) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
 
 end
